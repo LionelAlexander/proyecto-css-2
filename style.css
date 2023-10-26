@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to right, rgb(177, 177, 255), rgb(255, 165, 165));
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    margin: 0;
+    width: 100%;
+    background:linear-gradient(to right, rgb(116, 116, 173), rgb(138, 88, 88));
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: rgb(88, 71, 150);
+}
+
+i {
+    padding:0 5px ;
+}
+
+.active {
+    background-color: rgb(89, 91, 124);
+}
+
+.responsive {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a{
+        display: none;
+    }
+}
+.introduccion {
+    text-align: center;
+    margin: 0 15%;
+}
